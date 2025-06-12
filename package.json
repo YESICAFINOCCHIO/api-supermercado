@@ -1,0 +1,17 @@
+{
+  "name": "api-frutas",
+  "version": "1.0.0",
+  "description": "API RESTful para supermercado usando MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Yesica Finocchio",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1"
+  }
+}
