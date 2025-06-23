@@ -27,10 +27,12 @@ Aprender a crear una API capaz de realizar operaciones CRUD (crear, leer, actual
 2. Ejecutar `npm install` para instalar las dependencias.
 3. Verificar que MongoDB esté instalado y funcionando localmente.
 (nos paso en mi pc, que el servicio que maneja mongo db en windows, no iniciaba y todo ver muchos tutoriales para hacerlo andar)
-4. Ejecutar el servidor con:
+4. Crear un archivo `.env.example` en la raíz del proyecto (ver ejemplo más abajo).
+5. Ejecutar el servidor con:
 
 ```bash
 node app.js
+----------------------------------------------------------------------------------------
 La API quedará disponible en: http://localhost:3000/api/productos
 
 Estructura del proyecto
@@ -42,7 +44,20 @@ api-frutas/
 │   └── productos.js
 ├── app.js
 ├── package.json
+├── .env
 └── README.md
+
+
+****************************************************************************************
+Variables de entorno necesarias
+
+archivo .env:
+MONGO_URI=mongodb://localhost:27017/frutasdb
+PORT=3000
+
+También se incluye un archivo .env.example para referencia.
+
+****************************************************************************************
 
 ******************************************
  Endpoints disponibles
