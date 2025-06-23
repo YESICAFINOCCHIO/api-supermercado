@@ -45,6 +45,7 @@ api-frutas/
 ├── app.js
 ├── package.json
 ├── .env
+├── .env.example
 └── README.md
 
 
